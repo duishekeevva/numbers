@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    background:url("./assets/kosmos.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #05102d;
+}
+
+input {
+    padding: 5px 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+p, h2 {
+    font-size: 22px;
+    color: #FFF;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
