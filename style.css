@@ -1,50 +1,120 @@
+/**{*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    box-sizing: border-box;*/
+/*    font-family: 'Roboto Slab', serif;*/
+/*}*/
+
+/*body {*/
+/*    background:url("./assets/kosmos.jpg") center/cover no-repeat;*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.container {*/
+/*    max-width: 1200px;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.card {*/
+/*    text-align: center;*/
+/*    padding: 20px;*/
+/*    border: 2px solid #FFF;*/
+/*    border-radius: 8px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*input {*/
+/*    padding: 5px 20px;*/
+/*    font-size: 22px;*/
+/*    font-weight: 400;*/
+/*}*/
+
+/*p, h2 {*/
+/*    font-size: 22px;*/
+/*    color: #FFF;*/
+/*    font-weight: 400;*/
+/*}*/
+
+/*button {*/
+/*    cursor: pointer;*/
+/*    padding: 5px 20px;*/
+/*    font-size: 22px;*/
+/*    font-weight: 400;*/
+/*}*/
+
+/*===============================================================*/
+/*====================КАМЕНЬ НОЖНИЦЫ БУМАГА======================*/
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 body {
-    background:url("./assets/kosmos.jpg") center/cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
+    background: url("./assets/bg.jpg") center/cover no-repeat;
 }
 
 .card {
     text-align: center;
     padding: 20px;
-    border: 2px solid #FFF;
+    border: 1px solid #0d0da2;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 10px;
-    background-color: #05102d;
+    box-shadow: 0 10px 37px 23px rgba(34, 60, 80, 0.2);
+    background-color: aliceblue;
+}
+
+.computer {
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #1F2833;
+}
+
+.user {
+    background-color: #557A95;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: #fff;
 }
 
 input {
-    padding: 5px 20px;
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid cornflowerblue;
+    margin-top: 10px;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
-p, h2 {
+input:hover {
+    color: white;
+    background-color: #07575D;
+}
+h3 {
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: 1px solid cornflowerblue;
+    margin-top: 10px;
     font-size: 22px;
-    color: #FFF;
-    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
 }
 
-button {
-    cursor: pointer;
-    padding: 5px 20px;
-    font-size: 22px;
-    font-weight: 400;
+img {
+    width: 100px;
 }
